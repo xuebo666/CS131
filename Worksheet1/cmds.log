@@ -1,0 +1,3 @@
+  890  mkdir Worksheet1
+  891  cd Worksheet1/
+  892  history > cmds.log
