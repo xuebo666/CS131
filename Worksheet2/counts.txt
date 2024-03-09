@@ -1,0 +1,4 @@
+Records with Music category: 
+196 : This is the number of lines in Music category
+654 : This is the word counts of records in Music category
+

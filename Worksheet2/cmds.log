@@ -1,0 +1,13 @@
+  989  mkdir Worksheet2
+  990  cd Worksheet2
+  991  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  992  ls 
+  993  grep "United States" "Global YouTube Statistics.csv"
+ 1017  grep -c "^[^,]*,[^,]*,[^,]*,[^,]*,Music" "Global YouTube Statistics.csv" > counts.txt
+ 1018  cat counts.txt 
+ 1019  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music" "Global YouTube Statistics.csv" | wc -w
+ 1020  grep "^[^,]*,[^,]*,[^,]*,[^,]*,Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt 
+ 1021  cat counts.txt 
+ 1022  vi counts.txt 
+ 1023  cat counts.txt 
+ 1024  history > cmds.log
