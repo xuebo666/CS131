@@ -1,0 +1,26 @@
+ 1050  mkdir Assignment1
+ 1051  cd Assignment1/
+ 1052  echo $SHELL
+ 1053  echo $HOME
+ 1054  id
+ 1055  mkdir myDir
+ 1056  chmod -w myDir/
+ 1057  cd myDir/
+ 1058  ls
+ 1059  ls -l
+ 1060  touch file.txt
+ 1061  cd ..
+ 1062  mkdir myDir2
+ 1063  mkdir myDir3
+ 1064  cd myDir2
+ 1065  touch myFile.txt
+ 1066  mv myFile.txt ../myDir3
+ 1067  ls
+ 1068  cd ..
+ 1069  ls
+ 1070  cd myDir3
+ 1071  ls
+ 1072  cd ..
+ 1073  free -m
+ 1074  cat /etc/os-release
+ 1075  history > cmds.log
