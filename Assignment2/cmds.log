@@ -1,0 +1,23 @@
+  128  find /etc -type f > one.txt 2> two.txt
+  129  ls
+  130  mkdir Assignment2
+  131  cd Assigment2
+  132  cd Assignment2
+  133  touch Assignment2.txt
+  134  cd ..
+  136  cat one.txt 
+  137  cat two.txt 
+  138  cd Assignment2
+  140  cd Assignment2
+  142  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  143  ls 
+  144  vi 'Global YouTube Statistics.csv' 
+  150  cut -d',' -f20,21 'Global YouTube Statistics.csv'
+  153  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort
+  154  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort -nr
+  155  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort -nr |head -3
+  157  ps -u xuebosp24
+  159  vi file.txt
+  161  pgrep systemd
+  162  vi Assignment2.txt 
+  163  history > cmds.log

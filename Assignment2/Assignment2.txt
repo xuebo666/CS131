@@ -1,0 +1,66 @@
+1. a. The command "find /etc -type f > one.txt 2 > two.txt" is trying to find all regular files in the "etc" directory and its subdirectories. It redirects the standard output to a file named "one.txt". And redirects the standard error to a file named "two.txt".
+   b. In the "one.txt" file, it contains the list of all the regular files which found in the "etc" directory and its subdirectories. 
+      In the "two.txt" file, it contains all error messages encountered during the execution of the command.
+
+2. The command that I used: cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort -nr | head -3
+   " cut -d ',' -f20,21 'Global YouTube Statistics.csv'" cut the 20th and 21st columns from the file which 20th column represents the created year,   and 21st represents the created month. 
+   " sort -nr | head -3": Sorts the result in descending order, and selects and displays the top 3 lines. 
+
+3. The output: 
+    PID TTY          TIME CMD
+2068509 ?        00:00:01 systemd
+2068511 ?        00:00:00 (sd-pam)
+2068517 ?        00:00:00 sshd
+2068523 pts/1    00:00:00 bash
+2075843 pts/1    00:00:00 ps
+
+4. b. The output: 
+    PID TTY          TIME CMD
+2068509 ?        00:00:01 systemd
+2068511 ?        00:00:00 (sd-pam)
+2068517 ?        00:00:00 sshd
+2068523 pts/1    00:00:00 bash
+2076507 ?        00:00:00 sshd
+2076508 pts/2    00:00:00 bash
+2076730 pts/1    00:00:00 vim
+2076830 pts/2    00:00:00 ps  
+
+There are more PID show up. The PID for vim is 22076730. 
+
+  d. The output: 
+    PID TTY          TIME CMD
+2068509 ?        00:00:01 systemd
+2068511 ?        00:00:00 (sd-pam)
+2068517 ?        00:00:00 sshd
+2068523 pts/1    00:00:00 bash
+2076507 ?        00:00:00 sshd
+2076508 pts/2    00:00:00 bash
+2077205 pts/2    00:00:00 ps
+
+The vim process is no longer listed because it has been terminated. 
+
+5. The command that used: pgrep systemd
+
+The output: 
+1
+2951
+2998
+3746
+86087
+105881
+2060795
+2068096
+2068509
+2073814
+2248654
+2379540
+2422345
+2492008
+3304023
+3312757
+3854249
+
+The init process in Linux is 1.  
+
+6. "ps aux" is used to display all processes which are runnig in the system. 
+   "ps" is the process status command. "a" for display all processes's information, "u" for display detail information, "x" for shows process without a TTY. 
