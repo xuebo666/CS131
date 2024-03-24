@@ -12,13 +12,15 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1710656805,,"wq"
+|2,0,1711256852,,"wq"
+:1,150 d
+|2,0,1711256781,,"1,150 d"
+:q
+|2,0,1711173316,,"q"
 :1,124 d
 |2,0,1710656752,,"1,124 d"
 :q!
 |2,0,1710656729,,"q!"
-:q
-|2,0,1710656725,,"q"
 :1,40 d
 |2,0,1709969596,,"1,40 d"
 :1,900 d
@@ -54,261 +56,305 @@
 
 # Registers:
 ""1	LINE	0
-	  160  vi Assignment2.txt 
-|3,1,1,1,1,0,1710656799,"  160  vi Assignment2.txt "
+	  240  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1
+|3,1,1,1,1,0,1711256838,"  240  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1"
 "2	LINE	0
-	  158  vi Assignment2.txt 
-|3,0,2,1,1,0,1710656797,"  158  vi Assignment2.txt "
+	  239  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1
+|3,0,2,1,1,0,1711256837,"  239  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1"
 "3	LINE	0
-	  156  vi Assignment2.txt 
-|3,0,3,1,1,0,1710656794,"  156  vi Assignment2.txt "
+	  238  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1
+|3,0,3,1,1,0,1711256836,"  238  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1"
 "4	LINE	0
-	  152  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c
-|3,0,4,1,1,0,1710656789,"  152  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c"
+	  237  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 3
+|3,0,4,1,1,0,1711256829,"  237  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 3"
 "5	LINE	0
-	  151  vi 'Global YouTube Statistics.csv' 
-|3,0,5,1,1,0,1710656787,"  151  vi 'Global YouTube Statistics.csv' "
+	  236  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 1
+|3,0,5,1,1,0,1711256828,"  236  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 1"
 "6	LINE	0
-	  149  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
-|3,0,6,1,1,0,1710656784,"  149  cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3"
+	  234  ls
+|3,0,6,1,1,0,1711256827,"  234  ls"
 "7	LINE	0
-	  148  vi 'Global YouTube Statistics.csv' 
-|3,0,7,1,1,0,1710656783,"  148  vi 'Global YouTube Statistics.csv' "
+	  235  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | cut -d ',' -f 8,16
+|3,0,7,1,1,0,1711256825,"  235  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | cut -d ',' -f 8,16"
 "8	LINE	0
-	  147  cut -d',' -f21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
-|3,0,8,1,1,0,1710656783,"  147  cut -d',' -f21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3"
+	  233  cd Worksheet3
+|3,0,8,1,1,0,1711256819,"  233  cd Worksheet3"
 "9	LINE	0
-	  146  cut -d',' -f3,4 <filename> | sort | uniq -c | sort -nr | head -3
-|3,0,9,1,1,0,1710656781,"  146  cut -d',' -f3,4 <filename> | sort | uniq -c | sort -nr | head -3"
+	  232  vi 'Global YouTube Statistics.csv' 
+|3,0,9,1,1,0,1711256818,"  232  vi 'Global YouTube Statistics.csv' "
 "-	CHAR	0
 	1
 |3,0,36,0,1,0,1709969596,"1"
 
 # File marks:
-'0  23  2  ~/Assignment2/cmds.log
-|4,48,23,2,1710656805,"~/Assignment2/cmds.log"
-'1  1  2  ~/Assignment2/cmds.log
-|4,49,1,2,1710656729,"~/Assignment2/cmds.log"
-'2  1  2  ~/Assignment2/cmds.log
-|4,50,1,2,1710656729,"~/Assignment2/cmds.log"
-'3  66  156  ~/Assignment2/Assignment2.txt
-|4,51,66,156,1710656652,"~/Assignment2/Assignment2.txt"
-'4  63  0  ~/Assignment2/Assignment2.txt
-|4,52,63,0,1710656367,"~/Assignment2/Assignment2.txt"
-'5  63  0  ~/Assignment2/Assignment2.txt
-|4,53,63,0,1710656367,"~/Assignment2/Assignment2.txt"
-'6  42  2  ~/Assignment2/Assignment2.txt
-|4,54,42,2,1710656217,"~/Assignment2/Assignment2.txt"
-'7  42  2  ~/Assignment2/Assignment2.txt
-|4,55,42,2,1710656217,"~/Assignment2/Assignment2.txt"
-'8  42  2  ~/Assignment2/Assignment2.txt
-|4,56,42,2,1710656217,"~/Assignment2/Assignment2.txt"
-'9  42  2  ~/Assignment2/Assignment2.txt
-|4,57,42,2,1710656217,"~/Assignment2/Assignment2.txt"
+'0  2  2  ~/Worksheet3/cmds.log
+|4,48,2,2,1711256852,"~/Worksheet3/cmds.log"
+'1  8  0  ~/Worksheet3/ws3.txt
+|4,49,8,0,1711256728,"~/Worksheet3/ws3.txt"
+'2  7  81  ~/Worksheet3/ws3.txt
+|4,50,7,81,1711256561,"~/Worksheet3/ws3.txt"
+'3  7  81  ~/Worksheet3/ws3.txt
+|4,51,7,81,1711256561,"~/Worksheet3/ws3.txt"
+'4  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,52,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+'5  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,53,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+'6  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,54,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+'7  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,55,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+'8  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,56,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+'9  528  0  ~/Worksheet3/test2.txt
+|4,57,528,0,1711173005,"~/Worksheet3/test2.txt"
 
 # Jumplist (newest first):
--'  23  2  ~/Assignment2/cmds.log
-|4,39,23,2,1710656805,"~/Assignment2/cmds.log"
--'  10  2  ~/Assignment2/cmds.log
-|4,39,10,2,1710656752,"~/Assignment2/cmds.log"
--'  1  2  ~/Assignment2/cmds.log
-|4,39,1,2,1710656731,"~/Assignment2/cmds.log"
--'  1  2  ~/Assignment2/cmds.log
-|4,39,1,2,1710656729,"~/Assignment2/cmds.log"
--'  66  156  ~/Assignment2/Assignment2.txt
-|4,39,66,156,1710656652,"~/Assignment2/Assignment2.txt"
--'  66  156  ~/Assignment2/Assignment2.txt
-|4,39,66,156,1710656652,"~/Assignment2/Assignment2.txt"
--'  66  156  ~/Assignment2/Assignment2.txt
-|4,39,66,156,1710656652,"~/Assignment2/Assignment2.txt"
--'  66  156  ~/Assignment2/Assignment2.txt
-|4,39,66,156,1710656652,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656382,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656382,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656382,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656382,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656367,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656367,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656367,"~/Assignment2/Assignment2.txt"
--'  63  0  ~/Assignment2/Assignment2.txt
-|4,39,63,0,1710656367,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656279,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656217,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656217,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656217,"~/Assignment2/Assignment2.txt"
--'  42  2  ~/Assignment2/Assignment2.txt
-|4,39,42,2,1710656217,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710656001,"~/Assignment2/Assignment2.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  1  0  ~/Assignment2/file.txt
-|4,39,1,0,1710655983,"~/Assignment2/file.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  17  2  ~/Assignment2/Assignment2.txt
-|4,39,17,2,1710655819,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
--'  9  0  ~/Assignment2/Assignment2.txt
-|4,39,9,0,1710655798,"~/Assignment2/Assignment2.txt"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  8  0  ~/Worksheet3/ws3.txt
+|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
+-'  8  0  ~/Worksheet3/ws3.txt
+|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
+-'  7  81  ~/Worksheet3/ws3.txt
+|4,39,7,81,1711256696,"~/Worksheet3/ws3.txt"
+-'  7  81  ~/Worksheet3/ws3.txt
+|4,39,7,81,1711256696,"~/Worksheet3/ws3.txt"
+-'  7  81  ~/Worksheet3/ws3.txt
+|4,39,7,81,1711256561,"~/Worksheet3/ws3.txt"
+-'  7  81  ~/Worksheet3/ws3.txt
+|4,39,7,81,1711256561,"~/Worksheet3/ws3.txt"
+-'  1  0  ~/Worksheet3/ws3.txt
+|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
+-'  1  0  ~/Worksheet3/ws3.txt
+|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
+-'  1  0  ~/Worksheet3/ws3.txt
+|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
+-'  1  0  ~/Worksheet3/ws3.txt
+|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
+|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  528  0  ~/Worksheet3/test2.txt
+|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/Worksheet3/cmds.log
+	*	1711256849	0
+	"	2	2
+	.	7	0
+	+	1	0
+	+	7	0
+
+> ~/Worksheet3/ws3.txt
+	*	1711256727	0
+	"	8	0
+	^	8	0
+	.	8	0
+	+	1	82
+	+	7	81
+	+	8	0
+
+> ~/Worksheet3/test2.txt
+	*	1711173004	0
+	"	528	0
+
+> ~/Worksheet3/test1.txt
+	*	1711172939	0
+	"	1	0
+
+> ~/Worksheet3/test.txt
+	*	1711172676	0
+	"	996	0
+
+> ~/Worksheet3/ws3_task1.txt
+	*	1711172419	0
+	"	630	0
+
+> ~/Worksheet3/ws2.txt
+	*	1711172165	0
+	"	1	0
+
+> ~/Worksheet3/ws.txt
+	*	1711171872	0
+	"	302	0
+
+> ~/Worksheet3/Global YouTube Statistics.csv
+	*	1711168745	0
+	"	1	0
 
 > ~/Assignment2/cmds.log
 	*	1710656802	0
@@ -408,85 +454,3 @@
 	^	53	11
 	.	53	10
 	+	53	10
-
-> ~/cs131/cs131/Assignment1/CS131/cmds.log
-	*	1709106369	0
-	"	102	0
-
-> ~/.gitmodules
-	*	1709102379	0
-	"	3	46
-	^	3	47
-	.	3	46
-	+	3	46
-
-> ~/cmod.log
-	*	1709096076	0
-	"	190	0
-
-> ~/cmds.log
-	*	1709095389	0
-	"	102	0
-
-> ~/cs131/Assignment1/cmds.log
-	*	1709094907	0
-	"	28	2
-	.	4	0
-	+	1	0
-	+	3	0
-	+	4	0
-
-> ~/cs131/Assignment1/Assignment1.txt
-	*	1709094519	0
-	"	53	0
-	^	53	0
-	.	54	0
-	+	6	12
-	+	1	12
-	+	8	0
-	+	12	0
-	+	10	15
-	+	2	9
-	+	6	9
-	+	2	4
-	+	6	4
-	+	2	11
-	+	6	11
-	+	10	40
-	+	17	128
-	+	17	11
-	+	22	43
-	+	19	62
-	+	24	10
-	+	24	11
-	+	24	99
-	+	1	125
-	+	5	94
-	+	2	0
-	+	6	0
-	+	10	0
-	+	9	98
-	+	15	0
-	+	45	48
-	+	49	53
-	+	50	81
-	+	52	76
-	+	54	0
-
-> ~/index.html
-	*	1709073039	0
-	"	337	0
-
-> ~/cs131/Worksheet2/counts.txt
-	*	1708669320	0
-	"	4	119
-	^	4	120
-	.	4	119
-	+	2	56
-	+	4	119
-
-> ~/.ssh/key.txt
-	*	1707534551	0
-	"	38	1
-	.	38	0
-	+	38	0

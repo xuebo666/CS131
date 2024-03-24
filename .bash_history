@@ -138,3 +138,95 @@ cat two.txt
 cd Assignment2
 vi Assignment2.txt 
 ps -u xuebosp24
+cd Assignment2
+ls
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ls 
+vi 'Global YouTube Statistics.csv' 
+cut -d',' -f21,22 'Global YouTube Statistics.csv' 
+cut -d',' -f3,4 <filename> | sort | uniq -c | sort -nr | head -3
+cut -d',' -f21,22 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
+vi 'Global YouTube Statistics.csv' 
+cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c | sort -nr | head -3
+cut -d',' -f20,21 'Global YouTube Statistics.csv'
+vi 'Global YouTube Statistics.csv' 
+cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort | uniq -c
+cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort
+cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort -nr
+cut -d',' -f20,21 'Global YouTube Statistics.csv' | sort -nr |head -3
+vi Assignment2.txt 
+ps -u xuebosp24
+vi Assignment2.txt 
+vi file.txt
+vi Assignment2.txt 
+pgrep systemd
+vi Assignment2.txt 
+history > cmds.log
+ls
+vi cmds.log 
+cd ..
+ls
+git add .
+git status
+git commit -m "Assignment2"
+git push origin main
+cd Worksheet3
+# Extract data for the specified countries and sort by highest monthly earnings
+grep -E 'United States|United Kingdom|India' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -nr > 
+vi ws3.txt 
+grep -E 'United States' "Global YouTube Statistics.csv" | sort -t ',' -k 16 -nr > ws.txt
+vi ws.txt 
+sort -nrk 17,17 -t "," Global_YouTube_Statistics.csv | cut -d "," -f 17,8 > ws2.txt
+sort -nrk 17,17 -t "," 'Global YouTube Statistics.csv' | cut -d "," -f 17,8 > ws2.txt
+vi ws2.txt 
+sort -nrk 16,16 -t "," 'Global YouTube Statistics.csv' | cut -d "," -f 16,8 > ws2.txt
+rm ws2.txt 
+sort -nrk 16,16 -t "," 'Global YouTube Statistics.csv' | cut -d "," -f 16,8 > ws2.txt
+vi ws2.txt
+cut -d',' -f 16,8 "Global YouTube Statistics.csv" | grep -E "United States|United Kingdom|India" | sort -nrk 16,16 -t "," 'Global YouTube Statistics.csv' > ws3_task1.txt
+vi ws3_task1.txt 
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States | United Kingdom | India' 
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' > test.txt
+vi test.txt 
+sort -nr -t "," -k 18,18 'Global YouTube Statistics.csv' | grep -E 'US|GB|IN' | cut -d "," -f 18,9 > test1.txt
+vi test1.txt 
+sort -nr -t "," -k 16,8 'Global YouTube Statistics.csv' | grep -E 'US|GB|IN' | cut -d "," -f 16,8 > test2.txt
+vi test2.txt 
+ls
+rm test.txt 
+rm test1.txt 
+rm test2.txt 
+rm ws2.txt 
+rm ws3.txt 
+rm ws.txt 
+rm ws3_task1.txt 
+ls
+vi 'Global YouTube Statistics.csv' 
+ls
+ls -l
+ls -la
+vi 'Global YouTube Statistics.csv' 
+rm 'Global YouTube Statistics.csv.swp'
+cd ..
+ls
+rm -r Worksheet3
+ls
+mkdir Worksheet3
+cd Worksheet3
+ls
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ls
+vi 'Global YouTube Statistics.csv' 
+sort -nr -t "," -k 16,8 'Global YouTube Statistics.csv' | grep -E 'US|GB|IN' 
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' 
+grep -E 'United States|United Kingdom|India' 'Global YouTube Statistics.csv' 
+awk -F ',' '$8=="United States" || $8=="United Kingdom" || $8=="India"' 'Global YouTube Statistics.csv' 
+grep -E 'United States|United Kingdom|India' 'Global YouTube Statistics.csv' | cut -d ',' -f 8
+grep -E 'United States|United Kingdom|India' 'Global YouTube Statistics.csv' | cut -d ',' -f 8,16
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | cut -d ',' -f 8,16
+ls
+mkdir Worksheet3
+cd Worksheet3
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ls
+vi 'Global YouTube Statistics.csv' 
