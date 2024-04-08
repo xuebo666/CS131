@@ -12,15 +12,15 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1711256852,,"wq"
+|2,0,1712556628,,"wq"
+:q!
+|2,0,1712555953,,"q!"
+:q
+|2,0,1712555950,,"q"
 :1,150 d
 |2,0,1711256781,,"1,150 d"
-:q
-|2,0,1711173316,,"q"
 :1,124 d
 |2,0,1710656752,,"1,124 d"
-:q!
-|2,0,1710656729,,"q!"
 :1,40 d
 |2,0,1709969596,,"1,40 d"
 :1,900 d
@@ -56,261 +56,294 @@
 
 # Registers:
 ""1	LINE	0
-	  240  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1
-|3,1,1,1,1,0,1711256838,"  240  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1"
+	[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)[K -lq)
+|3,1,1,1,1,0,1712556573,"[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)[K -lq)"
 "2	LINE	0
-	  239  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1
-|3,0,2,1,1,0,1711256837,"  239  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1"
+	[K
+|3,0,2,1,1,0,1712556571,"[K"
 "3	LINE	0
-	  238  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1
-|3,0,3,1,1,0,1711256836,"  238  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1"
+	650
+<bash-4.4$ paste -sd+ Subscribers/United_States.txt | bc[K[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[C[C[C[C[C[C[C[C[C[Cmean_us=$(paste -sd+ Subscribers/United_States.txt | bc) -lq)[C[C[C[C[C[C[C[C[C[Cpaste < (echo "Average number of subscribers for United States: ") < (aawk 'BEGIN{s=0;}{s+=$1;}END{print s/NR;}' Subscribers/United_States.txt ) >ws4_meean.txt[A[A[C[C[C[10Pmean_us=$(paste -sd+ Subscribers/United_States.txt | bc -lq)
+|3,0,3,1,1,0,1712556570,>651
+|<"bash-4.4$ paste -sd+ Subscribers/United_States.txt | bc[K[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[C[C[C[C[C[C[C[C[C[Cmean_us=$(paste -sd+ Subscribers/United_States.txt | bc) -lq)[C[C[C[C[C[C[C[C[C[Cpaste < (echo \"Average number of subscribers for United States: \") < (aawk 'BEGIN{
+|<s=0;}{s+=$1;}END{print s/NR;}' Subscribers/United_States.txt ) >ws4_meean.txt[A[A[C[C[C[10Pmean_us=$(paste -sd+ Subscribers/United_States.txt | bc -lq)"
 "4	LINE	0
-	  237  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 3
-|3,0,4,1,1,0,1711256829,"  237  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 3"
+	6973100000
+|3,0,4,1,1,0,1712556569,"6973100000"
 "5	LINE	0
-	  236  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 1
-|3,0,5,1,1,0,1711256828,"  236  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 1"
+	264
+<bash-4.4$ paste -sd+ Subscribers/United_States.txt[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc
+|3,0,5,1,1,0,1712556568,"bash-4.4$ paste -sd+ Subscribers/United_States.txt[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc"
 "6	LINE	0
-	  234  ls
-|3,0,6,1,1,0,1711256827,"  234  ls"
+	2715
+<170000000+166000000+162000000+98900000+96000000+75000000+68200000+59500000+59500000+56900000+56400000+52900000+52700000+52200000+47900000+46600000+44200000+42400000+42400000+40900000+39200000+38600000+38200000+38200000+38000000+37600000+36700000+36600000+36300000+35200000+35200000+34900000+33700000+33600000+32800000+32700000+31700000+31700000+31600000+31600000+31200000+30700000+30700000+30400000+30200000+30100000+29600000+29200000+28400000+28200000+27500000+27500000+27300000+27000000+26700000+26700000+26500000+26400000+26200000+26100000+25700000+25700000+25600000+25500000+25400000+25200000+25100000+24800000+24700000+24600000+24600000+24400000+24100000+24100000+24100000+24000000+23900000+23900000+23900000+23800000+23800000+23700000+23700000+23600000+23600000+23300000+23200000+23200000+23100000+23100000+22900000+22700000+22600000+22600000+22600000+22500000+22500000+22300000+22200000+22000000+22000000+21900000+21900000+21900000+21800000+21800000+21600000+21500000+21300000+21300000+21300000+21100000+21000000+21000000+21000000+20900000+20900000+20900000+20700000+20700000+20700000+20500000+20400000+20200000+20100000+20100000+20100000+20100000+20100000+20100000+20100000+20000000+20000000+19800000+19800000+19700000+19700000+19600000+19600000+19600000+19600000+19200000+19100000+19100000+18800000+18800000+18600000+18400000+18400000+18300000+18300000+18100000+18100000+18000000+18000000+18000000+17900000+17900000+17900000+17900000+17900000+17900000+17800000+17700000+17500000+17400000+17300000+17200000+17100000+17000000+16900000+16900000+16900000+16900000+16700000+16700000+16600000+16500000+16500000+16400000+16400000+16300000+16300000+16300000+16300000+16300000+16200000+16200000+16200000+16100000+16100000+16100000+15900000+15900000+15900000+15800000+15700000+15600000+15500000+15500000+15400000+15400000+15400000+15300000+15200000+15100000+15100000+15100000+15000000+15000000+15000000+15000000+15000000+14900000+14900000+14900000+14800000+14800000+14800000+14800000+14800000+14800000+14700000+14700000+14700000+14700000+14700000+14700000+14600000+14600000+14600000+14600000+14500000+14500000+14500000+14500000+14500000+14500000+14400000+14400000+14400000+14400000+14400000+14400000+14300000+14300000+14200000+14100000+14100000+14000000+13900000+13900000+13900000+13900000+13800000+13600000+13600000+13600000+13500000+13500000+13400000+13400000+13400000+13400000+13400000+13300000+13300000+13300000+13300000+13300000+13300000+13300000+13200000+13200000+13100000+13100000+13100000+13000000+13000000+12900000+12900000+12900000+12800000+12800000+12700000+12700000+12700000+12700000+12700000+12600000+12600000+12500000+12500000+12500000+12500000+12400000+12400000+12400000+12400000+12400000+12400000
+|3,0,6,1,1,0,1712556565,>2714
+|<"170000000+166000000+162000000+98900000+96000000+75000000+68200000+59500000+59500000+56900000+56400000+52900000+52700000+52200000+47900000+46600000+44200000+42400000+42400000+40900000+39200000+38600000+38200000+38200000+38000000+37600000+36700000+36600000+36300000+35200000+35200000+34900000+33700000+33600000+32800000+32700000+31700000+31700000+31600000+31600000+31200000+30700000+30700000+30400000+30200000+30100000+29600000+29200000+28400000+28200000+27500000+27500000+27300000+27000000+2
+|<6700000+26700000+26500000+26400000+26200000+26100000+25700000+25700000+25600000+25500000+25400000+25200000+25100000+24800000+24700000+24600000+24600000+24400000+24100000+24100000+24100000+24000000+23900000+23900000+23900000+23800000+23800000+23700000+23700000+23600000+23600000+23300000+23200000+23200000+23100000+23100000+22900000+22700000+22600000+22600000+22600000+22500000+22500000+22300000+22200000+22000000+22000000+21900000+21900000+21900000+21800000+21800000+21600000+21500000+21300
+|<000+21300000+21300000+21100000+21000000+21000000+21000000+20900000+20900000+20900000+20700000+20700000+20700000+20500000+20400000+20200000+20100000+20100000+20100000+20100000+20100000+20100000+20100000+20000000+20000000+19800000+19800000+19700000+19700000+19600000+19600000+19600000+19600000+19200000+19100000+19100000+18800000+18800000+18600000+18400000+18400000+18300000+18300000+18100000+18100000+18000000+18000000+18000000+17900000+17900000+17900000+17900000+17900000+17900000+17800000+
+|<17700000+17500000+17400000+17300000+17200000+17100000+17000000+16900000+16900000+16900000+16900000+16700000+16700000+16600000+16500000+16500000+16400000+16400000+16300000+16300000+16300000+16300000+16300000+16200000+16200000+16200000+16100000+16100000+16100000+15900000+15900000+15900000+15800000+15700000+15600000+15500000+15500000+15400000+15400000+15400000+15300000+15200000+15100000+15100000+15100000+15000000+15000000+15000000+15000000+15000000+14900000+14900000+14900000+14800000+1480
+|<0000+14800000+14800000+14800000+14800000+14700000+14700000+14700000+14700000+14700000+14700000+14600000+14600000+14600000+14600000+14500000+14500000+14500000+14500000+14500000+14500000+14400000+14400000+14400000+14400000+14400000+14400000+14300000+14300000+14200000+14100000+14100000+14000000+13900000+13900000+13900000+13900000+13800000+13600000+13600000+13600000+13500000+13500000+13400000+13400000+13400000+13400000+13400000+13300000+13300000+13300000+13300000+13300000+13300000+13300000
+|<+13200000+13200000+13100000+13100000+13100000+13000000+13000000+12900000+12900000+12900000+12800000+12800000+12700000+12700000+12700000+12700000+12700000+12600000+12600000+12500000+12500000+12500000+12500000+12400000+12400000+12400000+12400000+12400000+12400000"
 "7	LINE	0
-	  235  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | cut -d ',' -f 8,16
-|3,0,7,1,1,0,1711256825,"  235  sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | cut -d ',' -f 8,16"
+	bash-4.4$ paste -sd+ Subscriber[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[K[K[K[K[Kt
+|3,0,7,1,1,0,1712556565,"bash-4.4$ paste -sd+ Subscriber[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[K[K[K[K[Kt"
 "8	LINE	0
-	  233  cd Worksheet3
-|3,0,8,1,1,0,1711256819,"  233  cd Worksheet3"
+	paste: Subscriber: No such file or directory
+|3,0,8,1,1,0,1712556565,"paste: Subscriber: No such file or directory"
 "9	LINE	0
-	  232  vi 'Global YouTube Statistics.csv' 
-|3,0,9,1,1,0,1711256818,"  232  vi 'Global YouTube Statistics.csv' "
+	bash-4.4$ cd ..vi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscriber
+|3,0,9,1,1,0,1712556564,"bash-4.4$ cd ..vi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscriber"
 "-	CHAR	0
 	1
 |3,0,36,0,1,0,1709969596,"1"
 
 # File marks:
-'0  2  2  ~/Worksheet3/cmds.log
-|4,48,2,2,1711256852,"~/Worksheet3/cmds.log"
-'1  8  0  ~/Worksheet3/ws3.txt
-|4,49,8,0,1711256728,"~/Worksheet3/ws3.txt"
-'2  7  81  ~/Worksheet3/ws3.txt
-|4,50,7,81,1711256561,"~/Worksheet3/ws3.txt"
-'3  7  81  ~/Worksheet3/ws3.txt
-|4,51,7,81,1711256561,"~/Worksheet3/ws3.txt"
-'4  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,52,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
-'5  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,53,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
-'6  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,54,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
-'7  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,55,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
-'8  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,56,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
-'9  528  0  ~/Worksheet3/test2.txt
-|4,57,528,0,1711173005,"~/Worksheet3/test2.txt"
+'0  1  0  ~/Worksheet4/ws4.txt
+|4,48,1,0,1712556628,"~/Worksheet4/ws4.txt"
+'1  2  6  ~/Worksheet4/ws4.txt
+|4,49,2,6,1712555953,"~/Worksheet4/ws4.txt"
+'2  2  6  ~/Worksheet4/ws4.txt
+|4,50,2,6,1712555953,"~/Worksheet4/ws4.txt"
+'3  1  0  ~/Worksheet4/ws4_means.txt
+|4,51,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
+'4  1  0  ~/Worksheet4/ws
+|4,52,1,0,1712555682,"~/Worksheet4/ws"
+'5  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,53,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+'6  2  2  ~/Worksheet3/cmds.log
+|4,54,2,2,1711256852,"~/Worksheet3/cmds.log"
+'7  8  0  ~/Worksheet3/ws3.txt
+|4,55,8,0,1711256728,"~/Worksheet3/ws3.txt"
+'8  7  81  ~/Worksheet3/ws3.txt
+|4,56,7,81,1711256561,"~/Worksheet3/ws3.txt"
+'9  7  81  ~/Worksheet3/ws3.txt
+|4,57,7,81,1711256561,"~/Worksheet3/ws3.txt"
 
 # Jumplist (newest first):
+-'  1  0  ~/Worksheet4/ws4.txt
+|4,39,1,0,1712556628,"~/Worksheet4/ws4.txt"
+-'  2  6  ~/Worksheet4/ws4.txt
+|4,39,2,6,1712555966,"~/Worksheet4/ws4.txt"
+-'  2  6  ~/Worksheet4/ws4.txt
+|4,39,2,6,1712555953,"~/Worksheet4/ws4.txt"
+-'  1  0  ~/Worksheet4/ws4.txt
+|4,39,1,0,1712555833,"~/Worksheet4/ws4.txt"
+-'  1  0  ~/Worksheet4/ws4_means.txt
+|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
+-'  1  0  ~/Worksheet4/ws4_means.txt
+|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
+-'  1  0  ~/Worksheet4/ws4_means.txt
+|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
+-'  1  0  ~/Worksheet4/ws4_means.txt
+|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/ws
+|4,39,1,0,1712555682,"~/Worksheet4/ws"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
+-'  1  0  ~/Worksheet4/Subscribers/India.txt
+|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
 -'  2  2  ~/Worksheet3/cmds.log
 |4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  2  2  ~/Worksheet3/cmds.log
+|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
+-'  1  0  ~/Worksheet3/cmds.log
+|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
 -'  1  0  ~/Worksheet3/cmds.log
 |4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
 -'  8  0  ~/Worksheet3/ws3.txt
 |4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
 -'  8  0  ~/Worksheet3/ws3.txt
 |4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
--'  7  81  ~/Worksheet3/ws3.txt
-|4,39,7,81,1711256696,"~/Worksheet3/ws3.txt"
--'  7  81  ~/Worksheet3/ws3.txt
-|4,39,7,81,1711256696,"~/Worksheet3/ws3.txt"
--'  7  81  ~/Worksheet3/ws3.txt
-|4,39,7,81,1711256561,"~/Worksheet3/ws3.txt"
--'  7  81  ~/Worksheet3/ws3.txt
-|4,39,7,81,1711256561,"~/Worksheet3/ws3.txt"
--'  1  0  ~/Worksheet3/ws3.txt
-|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
--'  1  0  ~/Worksheet3/ws3.txt
-|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
--'  1  0  ~/Worksheet3/ws3.txt
-|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
--'  1  0  ~/Worksheet3/ws3.txt
-|4,39,1,0,1711256413,"~/Worksheet3/ws3.txt"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711176103,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  7  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,7,1711173316,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173158,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet3/Global YouTube Statistics.csv
-|4,39,1,0,1711173114,"~/Worksheet3/Global YouTube Statistics.csv"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
--'  528  0  ~/Worksheet3/test2.txt
-|4,39,528,0,1711173005,"~/Worksheet3/test2.txt"
+-'  8  0  ~/Worksheet3/ws3.txt
+|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
+-'  8  0  ~/Worksheet3/ws3.txt
+|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/Worksheet4/ws4.txt
+	*	1712556627	0
+	"	1	0
+	.	56	0
+	+	2	0
+	+	24	0
+	+	28	0
+	+	51	0
+	+	56	0
+
+> ~/Worksheet4/ws4_means.txt
+	*	1712555700	0
+	"	1	0
+
+> ~/Worksheet4/ws
+	*	1712555679	0
+	"	1	0
+
+> ~/Worksheet4/Subscribers/India.txt
+	*	1712555666	0
+	"	1	0
 
 > ~/Worksheet3/cmds.log
 	*	1711256849	0
@@ -429,28 +462,3 @@
 	+	1	29
 	+	2	50
 	+	4	0
-
-> ~/Worksheet2/count.txt
-	*	1709967746	0
-	"	1	0
-
-> ~/Worksheet1/cmds.log
-	*	1709879853	0
-	"	3	4
-	.	1	0
-	+	1	0
-
-> ~/cs131/cs131/Assignment1/cmds.log
-	*	1709107127	0
-	"	1	2
-	.	8	0
-	+	1	0
-	+	6	0
-	+	8	0
-
-> ~/cs131/cs131/Assignment1/Assignment1.txt
-	*	1709106962	0
-	"	1	10
-	^	53	11
-	.	53	10
-	+	53	10

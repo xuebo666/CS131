@@ -230,3 +230,109 @@ cd Worksheet3
 wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
 ls
 vi 'Global YouTube Statistics.csv' 
+cd Worksheet3
+ls
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | cut -d ',' -f 8,16
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 1
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United States|United Kingdom|India' | head -n 3
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United State' | head -n 1 > ws3.txt
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'United Kingdom' | head -n 1 >> ws3.txt 
+sort -t ',' -k 16 -n -r 'Global YouTube Statistics.csv' | grep -E 'India' | head -n 1 >> ws3.txt 
+vi ws3.txt 
+sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Sports' | head -n 1
+sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Sports' | head -n 1 >> ws3.txt 
+sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Education' | head -n 1 >> ws3.txt 
+sort -t ',' -k 3 -n -r 'Global YouTube Statistics.csv' | grep -E 'Entertainment' | head -n 1 >> ws3.txt 
+vi ws3.txt 
+history > cmds.log
+vi cmds.log 
+cd ..
+git add .
+git status
+git commit -m "Worksheet3"
+git push origin main
+nano ~/.bashhrc
+source ~/.bashrc
+l
+w
+nano ~/.bashhrc
+source ~/.bashrc
+l
+w
+nano ~/.bashhrc
+echo $HOME
+nano $HOME/.bashhrc
+source $HOME/.bashrc
+l
+cd ..
+ls
+ls -ltr
+ls -la
+cd Worksheet4
+ls
+ls -la
+nano ~/.bashrc
+source ~/.bashrc
+l
+w
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ls
+mkdir Subscribers
+vi 'Global YouTube Statistics.csv' 
+grep "United States" 'Global YouTube Statistics.csv' | cut -d ',' -f 3 > ~/Worksheet4/Subscribers/United_States.txt
+cd Subscribers
+vi United_States.txt 
+cd ..
+vi "
+
+:q
+
+>>
+cd ..
+
+:Q
+:q
+vi 'Global YouTube Statistics.csv' 
+grep "India" 'Global YouTube Statistics.csv' | cut -d ',' -f 3 > ~/Worksheet4/Subscribers/India.txt
+cd Subscribers/
+vi India.txt 
+mean_us=$(paste -sd+ ~/Worksheet4/Subscribers/United_States.txt | bc -l)
+total_us=$(wc -l < ~/Worksheet4/Subscribers/United_States.txt)
+average_us=$(echo "scale=2; $mean_us / $total_us" | bc -l)
+mean_us=$(paste -sd+ Worksheet4/Subscribers/United_States.txt | bc -lq)
+mean_us=$(paste -sd+ ~/Worksheet4/Subscribers/United_States.txt | bc -lq)
+vi 'Global YouTube Statistics.csv' 
+cd..
+cd ..
+vi 'Global YouTube Statistics.csv' 
+mean_us=$(paste -sd+ ~/Worksheet4/Subscribers/United_States.txt | bc -lq)
+mean_us=$(paste -sd+ Subscribers/United_States.txt | bc -l)
+mean_us=$(paste -sd+ ~/Worksheet4/Subscribers/United_States.txt | bc -l)
+mean_us=$(paste -sd+ ~/Worksheet4/Subscribers/United_States.)
+sum_us=0
+while IFS= read -r line; do     sum_us=$((sum_us + line)); done < ~/Worksheet4/Subscribers/United_States.txt
+awk 'BEGIN{s=0;}{s+=$1;}END{print s/NR;}' Subscribers/United_States.txt 
+paste <(echo "United States:") <(bc -l <<< "scale=2; $(awk '{sum+=$1} END {print sum/NR}' Subscribers/United_States.txt)")
+awk 'BEGIN{s=0;}{s+=$1;}END{print s/NR;}' Subscribers/India.txt 
+paste < (echo "Average number of subscribers for United States: ") < (awk 'BEGIN{s=0;}{s+=$1;}END{print s/NR;}' Subscribers/United_States.txt ) >ws4_mean.txt
+mean_us=$(paste -sd+ Subscribers/United_States.txt | bc -lq)
+mean_us=$(paste -sd+ Subscribers/United_States.txt | bc)
+paste -sd+ Subscribers/United_States.txt
+paste -sd+ Subscribers/United_States.txt | bc
+cd Subscribers/
+vi United_States.t
+cd ..
+paste -sd+ Subscriber
+paste -sd+ Subscribers/United_States.txt
+paste -sd+ Subscribers/United_States.txt | bc
+mean_us=$(paste -sd+ Subscribers/United_States.txt | bc -lq)
+num_us=$(wc -l < Subscribers/United_States.txt)
+mean_us=$(echo "scale=2; $mean_us / $num_us" | bc -l)
+mean_in=$(paste -sd+ Subscribers/India.txt | bc -lq)
+num_in=$(wc -l < Subscribers/India.txt)
+mean_in=$(echo "scale=2; $mean_in / $num_in" | bc -l)
+echo " Average subscribers for United States: $mean_us" > ws4_means.txt
+echo " Average subscribers for India: $mean_in" >> ws4_means.txt
