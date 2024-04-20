@@ -11,12 +11,16 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:wq
-|2,0,1712556628,,"wq"
-:q!
-|2,0,1712555953,,"q!"
 :q
-|2,0,1712555950,,"q"
+|2,0,1713584880,,"q"
+:wq
+|2,0,1713339222,,"wq"
+:1, 357 d
+|2,0,1713339099,,"1, 357 d"
+:q!
+|2,0,1713339088,,"q!"
+:1,357 d
+|2,0,1713338955,,"1,357 d"
 :1,150 d
 |2,0,1711256781,,"1,150 d"
 :1,124 d
@@ -56,272 +60,347 @@
 
 # Registers:
 ""1	LINE	0
-	[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)[K -lq)
-|3,1,1,1,1,0,1712556573,"[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)[K -lq)"
+	  435  cat Assignment3.txt 
+|3,1,1,1,1,0,1713339210,"  435  cat Assignment3.txt "
 "2	LINE	0
-	[K
-|3,0,2,1,1,0,1712556571,"[K"
+	  433  vi passwd.fake 
+|3,0,2,1,1,0,1713339208,"  433  vi passwd.fake "
 "3	LINE	0
-	650
-<bash-4.4$ paste -sd+ Subscribers/United_States.txt | bc[K[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[C[C[C[C[C[C[C[C[C[Cmean_us=$(paste -sd+ Subscribers/United_States.txt | bc) -lq)[C[C[C[C[C[C[C[C[C[Cpaste < (echo "Average number of subscribers for United States: ") < (aawk 'BEGIN{s=0;}{s+=$1;}END{print s/NR;}' Subscribers/United_States.txt ) >ws4_meean.txt[A[A[C[C[C[10Pmean_us=$(paste -sd+ Subscribers/United_States.txt | bc -lq)
-|3,0,3,1,1,0,1712556570,>651
-|<"bash-4.4$ paste -sd+ Subscribers/United_States.txt | bc[K[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[C[C[C[C[C[C[C[C[C[Cmean_us=$(paste -sd+ Subscribers/United_States.txt | bc) -lq)[C[C[C[C[C[C[C[C[C[Cpaste < (echo \"Average number of subscribers for United States: \") < (aawk 'BEGIN{
-|<s=0;}{s+=$1;}END{print s/NR;}' Subscribers/United_States.txt ) >ws4_meean.txt[A[A[C[C[C[10Pmean_us=$(paste -sd+ Subscribers/United_States.txt | bc -lq)"
+	  431  vi ps.fake 
+|3,0,3,1,1,0,1713339202,"  431  vi ps.fake "
 "4	LINE	0
-	6973100000
-|3,0,4,1,1,0,1712556569,"6973100000"
+	  429  vi Assignment3.txt 
+|3,0,4,1,1,0,1713339197,"  429  vi Assignment3.txt "
 "5	LINE	0
-	264
-<bash-4.4$ paste -sd+ Subscribers/United_States.txt[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc
-|3,0,5,1,1,0,1712556568,"bash-4.4$ paste -sd+ Subscribers/United_States.txt[K[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc"
+	  427  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 { print $0 }' passwd.fake | uniq | sort
+|3,0,5,1,1,0,1713339195,"  427  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 { print $0 }' passwd.fake | uniq | sort"
 "6	LINE	0
-	2715
-<170000000+166000000+162000000+98900000+96000000+75000000+68200000+59500000+59500000+56900000+56400000+52900000+52700000+52200000+47900000+46600000+44200000+42400000+42400000+40900000+39200000+38600000+38200000+38200000+38000000+37600000+36700000+36600000+36300000+35200000+35200000+34900000+33700000+33600000+32800000+32700000+31700000+31700000+31600000+31600000+31200000+30700000+30700000+30400000+30200000+30100000+29600000+29200000+28400000+28200000+27500000+27500000+27300000+27000000+26700000+26700000+26500000+26400000+26200000+26100000+25700000+25700000+25600000+25500000+25400000+25200000+25100000+24800000+24700000+24600000+24600000+24400000+24100000+24100000+24100000+24000000+23900000+23900000+23900000+23800000+23800000+23700000+23700000+23600000+23600000+23300000+23200000+23200000+23100000+23100000+22900000+22700000+22600000+22600000+22600000+22500000+22500000+22300000+22200000+22000000+22000000+21900000+21900000+21900000+21800000+21800000+21600000+21500000+21300000+21300000+21300000+21100000+21000000+21000000+21000000+20900000+20900000+20900000+20700000+20700000+20700000+20500000+20400000+20200000+20100000+20100000+20100000+20100000+20100000+20100000+20100000+20000000+20000000+19800000+19800000+19700000+19700000+19600000+19600000+19600000+19600000+19200000+19100000+19100000+18800000+18800000+18600000+18400000+18400000+18300000+18300000+18100000+18100000+18000000+18000000+18000000+17900000+17900000+17900000+17900000+17900000+17900000+17800000+17700000+17500000+17400000+17300000+17200000+17100000+17000000+16900000+16900000+16900000+16900000+16700000+16700000+16600000+16500000+16500000+16400000+16400000+16300000+16300000+16300000+16300000+16300000+16200000+16200000+16200000+16100000+16100000+16100000+15900000+15900000+15900000+15800000+15700000+15600000+15500000+15500000+15400000+15400000+15400000+15300000+15200000+15100000+15100000+15100000+15000000+15000000+15000000+15000000+15000000+14900000+14900000+14900000+14800000+14800000+14800000+14800000+14800000+14800000+14700000+14700000+14700000+14700000+14700000+14700000+14600000+14600000+14600000+14600000+14500000+14500000+14500000+14500000+14500000+14500000+14400000+14400000+14400000+14400000+14400000+14400000+14300000+14300000+14200000+14100000+14100000+14000000+13900000+13900000+13900000+13900000+13800000+13600000+13600000+13600000+13500000+13500000+13400000+13400000+13400000+13400000+13400000+13300000+13300000+13300000+13300000+13300000+13300000+13300000+13200000+13200000+13100000+13100000+13100000+13000000+13000000+12900000+12900000+12900000+12800000+12800000+12700000+12700000+12700000+12700000+12700000+12600000+12600000+12500000+12500000+12500000+12500000+12400000+12400000+12400000+12400000+12400000+12400000
-|3,0,6,1,1,0,1712556565,>2714
-|<"170000000+166000000+162000000+98900000+96000000+75000000+68200000+59500000+59500000+56900000+56400000+52900000+52700000+52200000+47900000+46600000+44200000+42400000+42400000+40900000+39200000+38600000+38200000+38200000+38000000+37600000+36700000+36600000+36300000+35200000+35200000+34900000+33700000+33600000+32800000+32700000+31700000+31700000+31600000+31600000+31200000+30700000+30700000+30400000+30200000+30100000+29600000+29200000+28400000+28200000+27500000+27500000+27300000+27000000+2
-|<6700000+26700000+26500000+26400000+26200000+26100000+25700000+25700000+25600000+25500000+25400000+25200000+25100000+24800000+24700000+24600000+24600000+24400000+24100000+24100000+24100000+24000000+23900000+23900000+23900000+23800000+23800000+23700000+23700000+23600000+23600000+23300000+23200000+23200000+23100000+23100000+22900000+22700000+22600000+22600000+22600000+22500000+22500000+22300000+22200000+22000000+22000000+21900000+21900000+21900000+21800000+21800000+21600000+21500000+21300
-|<000+21300000+21300000+21100000+21000000+21000000+21000000+20900000+20900000+20900000+20700000+20700000+20700000+20500000+20400000+20200000+20100000+20100000+20100000+20100000+20100000+20100000+20100000+20000000+20000000+19800000+19800000+19700000+19700000+19600000+19600000+19600000+19600000+19200000+19100000+19100000+18800000+18800000+18600000+18400000+18400000+18300000+18300000+18100000+18100000+18000000+18000000+18000000+17900000+17900000+17900000+17900000+17900000+17900000+17800000+
-|<17700000+17500000+17400000+17300000+17200000+17100000+17000000+16900000+16900000+16900000+16900000+16700000+16700000+16600000+16500000+16500000+16400000+16400000+16300000+16300000+16300000+16300000+16300000+16200000+16200000+16200000+16100000+16100000+16100000+15900000+15900000+15900000+15800000+15700000+15600000+15500000+15500000+15400000+15400000+15400000+15300000+15200000+15100000+15100000+15100000+15000000+15000000+15000000+15000000+15000000+14900000+14900000+14900000+14800000+1480
-|<0000+14800000+14800000+14800000+14800000+14700000+14700000+14700000+14700000+14700000+14700000+14600000+14600000+14600000+14600000+14500000+14500000+14500000+14500000+14500000+14500000+14400000+14400000+14400000+14400000+14400000+14400000+14300000+14300000+14200000+14100000+14100000+14000000+13900000+13900000+13900000+13900000+13800000+13600000+13600000+13600000+13500000+13500000+13400000+13400000+13400000+13400000+13400000+13300000+13300000+13300000+13300000+13300000+13300000+13300000
-|<+13200000+13200000+13100000+13100000+13100000+13000000+13000000+12900000+12900000+12900000+12800000+12800000+12700000+12700000+12700000+12700000+12700000+12600000+12600000+12500000+12500000+12500000+12500000+12400000+12400000+12400000+12400000+12400000+12400000"
+	  425  :q
+|3,0,6,1,1,0,1713339186,"  425  :q"
 "7	LINE	0
-	bash-4.4$ paste -sd+ Subscriber[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[K[K[K[K[Kt
-|3,0,7,1,1,0,1712556565,"bash-4.4$ paste -sd+ Subscriber[C[C[C[C[C[C[C[C[C[Ccd ..[Kvi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscribers/United_States.txt | bc[K[K[K[K[K[Kt"
+	  424  cat /etc/passwd
+|3,0,7,1,1,0,1713339186,"  424  cat /etc/passwd"
 "8	LINE	0
-	paste: Subscriber: No such file or directory
-|3,0,8,1,1,0,1712556565,"paste: Subscriber: No such file or directory"
+	  423  vi passwd.fake 
+|3,0,8,1,1,0,1713339185,"  423  vi passwd.fake "
 "9	LINE	0
-	bash-4.4$ cd ..vi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscriber
-|3,0,9,1,1,0,1712556564,"bash-4.4$ cd ..vi United_States.t[C[C[C[C[C[C[C[C[C[C[3Pcd Subscribers/[C[C[C[C[C[C[C[C[C[Cpaste -sd+ Subscriber"
+	  422  vi Assignment3.txt 
+|3,0,9,1,1,0,1713339184,"  422  vi Assignment3.txt "
 "-	CHAR	0
 	1
 |3,0,36,0,1,0,1709969596,"1"
 
 # File marks:
-'0  1  0  ~/Worksheet4/ws4.txt
-|4,48,1,0,1712556628,"~/Worksheet4/ws4.txt"
-'1  2  6  ~/Worksheet4/ws4.txt
-|4,49,2,6,1712555953,"~/Worksheet4/ws4.txt"
-'2  2  6  ~/Worksheet4/ws4.txt
-|4,50,2,6,1712555953,"~/Worksheet4/ws4.txt"
-'3  1  0  ~/Worksheet4/ws4_means.txt
-|4,51,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
-'4  1  0  ~/Worksheet4/ws
-|4,52,1,0,1712555682,"~/Worksheet4/ws"
-'5  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,53,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
-'6  2  2  ~/Worksheet3/cmds.log
-|4,54,2,2,1711256852,"~/Worksheet3/cmds.log"
-'7  8  0  ~/Worksheet3/ws3.txt
-|4,55,8,0,1711256728,"~/Worksheet3/ws3.txt"
-'8  7  81  ~/Worksheet3/ws3.txt
-|4,56,7,81,1711256561,"~/Worksheet3/ws3.txt"
-'9  7  81  ~/Worksheet3/ws3.txt
-|4,57,7,81,1711256561,"~/Worksheet3/ws3.txt"
+'0  181  0  ~/Assignment3/Assignment3.txt
+|4,48,181,0,1713584880,"~/Assignment3/Assignment3.txt"
+'1  29  2  ~/Assignment3/cmds.log
+|4,49,29,2,1713339222,"~/Assignment3/cmds.log"
+'2  1  0  ~/Assignment3/cmds.log
+|4,50,1,0,1713339088,"~/Assignment3/cmds.log"
+'3  18  0  ~/Assignment3/cmds.log
+|4,51,18,0,1713339088,"~/Assignment3/cmds.log"
+'4  167  44  ~/Assignment3/Assignment3.txt
+|4,52,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+'5  167  44  ~/Assignment3/Assignment3.txt
+|4,53,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+'6  178  0  ~/Assignment3/Assignment3.txt
+|4,54,178,0,1713338844,"~/Assignment3/Assignment3.txt"
+'7  177  0  ~/Assignment3/Assignment3.txt
+|4,55,177,0,1713338844,"~/Assignment3/Assignment3.txt"
+'8  178  0  ~/Assignment3/Assignment3.txt
+|4,56,178,0,1713338844,"~/Assignment3/Assignment3.txt"
+'9  177  0  ~/Assignment3/Assignment3.txt
+|4,57,177,0,1713338844,"~/Assignment3/Assignment3.txt"
 
 # Jumplist (newest first):
--'  1  0  ~/Worksheet4/ws4.txt
-|4,39,1,0,1712556628,"~/Worksheet4/ws4.txt"
--'  2  6  ~/Worksheet4/ws4.txt
-|4,39,2,6,1712555966,"~/Worksheet4/ws4.txt"
--'  2  6  ~/Worksheet4/ws4.txt
-|4,39,2,6,1712555953,"~/Worksheet4/ws4.txt"
--'  1  0  ~/Worksheet4/ws4.txt
-|4,39,1,0,1712555833,"~/Worksheet4/ws4.txt"
--'  1  0  ~/Worksheet4/ws4_means.txt
-|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
--'  1  0  ~/Worksheet4/ws4_means.txt
-|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
--'  1  0  ~/Worksheet4/ws4_means.txt
-|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
--'  1  0  ~/Worksheet4/ws4_means.txt
-|4,39,1,0,1712555703,"~/Worksheet4/ws4_means.txt"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/ws
-|4,39,1,0,1712555682,"~/Worksheet4/ws"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  1  0  ~/Worksheet4/Subscribers/India.txt
-|4,39,1,0,1712555669,"~/Worksheet4/Subscribers/India.txt"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  2  2  ~/Worksheet3/cmds.log
-|4,39,2,2,1711256852,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  1  0  ~/Worksheet3/cmds.log
-|4,39,1,0,1711256781,"~/Worksheet3/cmds.log"
--'  8  0  ~/Worksheet3/ws3.txt
-|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
--'  8  0  ~/Worksheet3/ws3.txt
-|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
--'  8  0  ~/Worksheet3/ws3.txt
-|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
--'  8  0  ~/Worksheet3/ws3.txt
-|4,39,8,0,1711256728,"~/Worksheet3/ws3.txt"
+-'  181  0  ~/Assignment3/Assignment3.txt
+|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
+-'  167  44  ~/Assignment3/Assignment3.txt
+|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
+-'  29  2  ~/Assignment3/cmds.log
+|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
+-'  29  2  ~/Assignment3/cmds.log
+|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
+-'  1  0  ~/Assignment3/cmds.log
+|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
+-'  1  0  ~/Assignment3/cmds.log
+|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
+-'  18  0  ~/Assignment3/cmds.log
+|4,39,18,0,1713339088,"~/Assignment3/cmds.log"
+-'  18  0  ~/Assignment3/cmds.log
+|4,39,18,0,1713339088,"~/Assignment3/cmds.log"
+-'  1  0  ~/Assignment3/cmds.log
+|4,39,1,0,1713338955,"~/Assignment3/cmds.log"
+-'  1  0  ~/Assignment3/cmds.log
+|4,39,1,0,1713338955,"~/Assignment3/cmds.log"
+-'  167  44  ~/Assignment3/Assignment3.txt
+|4,39,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+-'  167  44  ~/Assignment3/Assignment3.txt
+|4,39,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+-'  167  44  ~/Assignment3/Assignment3.txt
+|4,39,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+-'  167  44  ~/Assignment3/Assignment3.txt
+|4,39,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+-'  178  0  ~/Assignment3/Assignment3.txt
+|4,39,178,0,1713338850,"~/Assignment3/Assignment3.txt"
+-'  178  0  ~/Assignment3/Assignment3.txt
+|4,39,178,0,1713338850,"~/Assignment3/Assignment3.txt"
+-'  178  0  ~/Assignment3/Assignment3.txt
+|4,39,178,0,1713338850,"~/Assignment3/Assignment3.txt"
+-'  178  0  ~/Assignment3/Assignment3.txt
+|4,39,178,0,1713338850,"~/Assignment3/Assignment3.txt"
+-'  178  0  ~/Assignment3/Assignment3.txt
+|4,39,178,0,1713338850,"~/Assignment3/Assignment3.txt"
+-'  177  0  ~/Assignment3/Assignment3.txt
+|4,39,177,0,1713338844,"~/Assignment3/Assignment3.txt"
+-'  177  0  ~/Assignment3/Assignment3.txt
+|4,39,177,0,1713338844,"~/Assignment3/Assignment3.txt"
+-'  177  0  ~/Assignment3/Assignment3.txt
+|4,39,177,0,1713338844,"~/Assignment3/Assignment3.txt"
+-'  177  0  ~/Assignment3/Assignment3.txt
+|4,39,177,0,1713338844,"~/Assignment3/Assignment3.txt"
+-'  177  0  ~/Assignment3/Assignment3.txt
+|4,39,177,0,1713338844,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  145  72  ~/Assignment3/Assignment3.txt
+|4,39,145,72,1713338833,"~/Assignment3/Assignment3.txt"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  17  0  ~/Assignment3/passwd.fake
+|4,39,17,0,1713338805,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  1  0  ~/Assignment3/passwd.fake
+|4,39,1,0,1713338779,"~/Assignment3/passwd.fake"
+-'  2493  0  ~/Assignment3/ps.fake
+|4,39,2493,0,1713338250,"~/Assignment3/ps.fake"
+-'  2493  0  ~/Assignment3/ps.fake
+|4,39,2493,0,1713338250,"~/Assignment3/ps.fake"
+-'  2493  0  ~/Assignment3/ps.fake
+|4,39,2493,0,1713338250,"~/Assignment3/ps.fake"
 
 # History of marks within files (newest to oldest):
+
+> ~/Assignment3/Assignment3.txt
+	*	1713584878	0
+	"	181	0
+	^	167	45
+	.	167	44
+	+	2	74
+	+	8	23
+	+	2	24
+	+	4	0
+	+	2	38
+	+	4	50
+	+	2	76
+	+	4	0
+	+	7	51
+	+	9	3
+	+	3	0
+	+	18	0
+	+	5	31
+	+	17	36
+	+	20	53
+	+	19	51
+	+	20	52
+	+	25	19
+	+	39	45
+	+	22	20
+	+	14	20
+	+	23	195
+	+	25	0
+	+	43	6
+	+	48	16
+	+	48	62
+	+	115	65
+	+	45	191
+	+	116	6
+	+	131	0
+	+	48	7
+	+	48	16
+	+	112	63
+	+	45	0
+	+	46	0
+	+	141	0
+	+	130	63
+	+	129	0
+	+	115	0
+	+	119	0
+	+	139	8
+	+	144	22
+	+	165	6
+	+	169	17
+	+	165	5
+	+	133	53
+	+	161	7
+	+	145	72
+	+	179	9
+	+	167	44
+
+> ~/Assignment3/cmds.log
+	*	1713339221	0
+	"	29	2
+	.	29	0
+	+	1	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+
+> ~/Assignment3/passwd.fake
+	*	1713338797	0
+	"	17	0
+
+> ~/Assignment3/ps.fake
+	*	1713338249	0
+	"	2493	0
+
+> ~/Assignment3/last.fake
+	*	1713332456	0
+	"	419	0
 
 > ~/Worksheet4/ws4.txt
 	*	1712556627	0
@@ -427,38 +506,3 @@
 	+	66	120
 	+	66	156
 	+	67	0
-
-> ~/Assignment2/file.txt
-	*	1710655971	0
-	"	1	0
-
-> ~/Assignment2/Global YouTube Statistics.csv
-	*	1710655199	0
-	"	1	0
-
-> ~/Assignment1/cmds.log
-	*	1709969610	0
-	"	1	1
-	.	1	0
-	+	1	0
-
-> ~/Worksheet2/cmds.log
-	*	1709968805	0
-	"	13	1
-	.	6	0
-	+	3	0
-	+	1	0
-	+	8	0
-	+	5	59
-	+	8	0
-	+	6	0
-
-> ~/Worksheet2/counts.txt
-	*	1709968363	0
-	"	4	0
-	^	4	0
-	.	4	0
-	+	592	15
-	+	1	29
-	+	2	50
-	+	4	0

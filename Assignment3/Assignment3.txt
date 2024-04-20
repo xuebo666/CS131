@@ -1,0 +1,181 @@
+Task 1: 
+Commands used to solve "The number of lines in last.fake before filtering" :
+wc -l last.fake
+
+Output of Command: 507 last.fake
+
+----------------------------------------------------
+Command used to solve "make the file only have "sp24" in "lastsp24.fake" file:
+awk '/sp24/' last.fake > lastsp24.fake
+
+Output of Command: No output for this command. 
+
+----------------------------------------------------
+Command used to solve "The number of lines in lastsp24.fake" :
+wc -l lastsp24.fake
+
+Output of Command: 478 lastsp24.fake
+
+----------------------------------------------------
+----------------------------------------------------
+Task 2: 
+Command used to solve: 
+grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $0} END{print "Kudos to these people for putting in the work"}'
+
+Output of Command: 
+The list of people who worked on Sunday are:
+aayushsp24
+akashsp24
+billysp24
+breannasp24
+briansp24
+chih-kuosp24
+fnusp24
+gavinsp24
+megansp24
+michellesp24
+swansp24
+xuebosp24
+Kudos to these people for putting in the work 
+
+------------------------------------------------------
+------------------------------------------------------
+Task 3
+Command used to solve:
+awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 23 || $7 <= 4 {print $1}' | sort | uniq | awk 'BEGIN {print "Night Owls List:"}{print $0} END{print"Night Owls are dope. Please ensure you get enough sleep though."}'
+
+Output of Command:
+Night Owls List:
+aarushisp24
+aayushsp24
+ajaysp24
+akashsp24
+albertsp24
+alexsp24
+amansp24
+athishsp24
+ayesp24
+benjaminsp24
+bennysp24
+billysp24
+brandonsp24
+breannasp24
+briansp24
+chih-kuosp24
+connersp24
+daosp24
+davidsp24
+diyasp24
+dylansp24
+edisonsp24
+ericsp24
+farihasp24
+fnusp24
+gavinsp24
+georgesp24
+gradysp24
+gursimransp24
+jadonsp24
+jaydevsp24
+jessesp24
+jimmysp24
+justinsp24
+khushisp24
+kobesp24
+madhavsp24
+manassp24
+matthewsp24
+maysp24
+megansp24
+michellesp24
+nicholsonsp24
+nicolesp24
+piercesp24
+rickysp24
+robertosp24
+robertsp24
+ronsp24
+sandrasp24
+sangsp24
+sheelsp24
+sunidhisp24
+swansp24
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+vaikuntamsp24
+xiaokesp24
+xuebosp24
+yelinsp24
+zakisp24
+Night Owls are dope. Please ensure you get enough sleep though.
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Task 4
+Command used to solve: 
+awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 5 && $7 <= 9 {print $1}' | sort | uniq | awk 'BEGIN {print "Early Birds List:"}{print $0} END{print"Early Birds are dope. Please ensure you get enough sleep though."}'
+
+Output of Command: 
+Early Birds List:
+aayushsp24
+ajaysp24
+ericsp24
+gradysp24
+ronsp24
+Early Birds are dope. Please ensure you get enough sleep though.
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+Task 5
+Command used to solve: 
+awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+
+Output of Command:
+taliasp24
+tanishasp24
+tylermsp24
+tylersp24
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+Task 6
+Command used to solve:
+awk -F: '$1 ~ /^a/ && $3 % 2 == 0 { print $1 }' passwd.fake | uniq | sort
+
+Output of Command: 
+aayushsp24
+acesp24
+ajay23fa
+ajaysp24
+akashsp24
+alan23fa
+alexsp24
+amansp24
+amreenf23
+angie23fa
+apple23fa
+areebah23fa
+ashish
+ayesp24
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Task 7
+Command used to solve:
+sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+
+Output of Command:
+-::::-:/://
+-:::::///-://
+-:::::///__/-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
+
+

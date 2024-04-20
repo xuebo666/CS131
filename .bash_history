@@ -336,3 +336,113 @@ num_in=$(wc -l < Subscribers/India.txt)
 mean_in=$(echo "scale=2; $mean_in / $num_in" | bc -l)
 echo " Average subscribers for United States: $mean_us" > ws4_means.txt
 echo " Average subscribers for India: $mean_in" >> ws4_means.txt
+mkdir Worksheet4
+ls
+cd Worksheet4
+script ws4.txt
+ls
+cd Subscribers/
+ls
+vi India.txt 
+cd ..
+vi ws
+ls
+vi ws4_means.txt 
+vi ws4.txt 
+cd ..
+ls
+git add.
+git add . 
+git status
+git commit -m "Worksheet4"
+git push origin main
+exit
+ls
+mkdir Assignment3
+cd Assignment3
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+ls
+touch Assignment3.txt
+ls
+echo "Task1" 
+vi last.fake 
+wc -l last.fake
+vi last.fake 
+awk '/sp24/' last.fake > lastsp24.fake
+wc -l lastsp24.fake 
+grep 'sp24' last.fake 
+grep 'sp24' last.fake | wc 
+vi Assignment3.txt 
+echo "Task 2"
+grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq
+grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $0 "sp24"} END{print "Kudos to these people for putting in the work"}'
+grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $0} END{print "Kudos to these people for putting in the work"}'
+vi Assignment3.txt 
+echo "Task 3" 
+awk '{print $1,$6}' lastsp24.fake | sort | uniq
+awk '{print $1,$5}' lastsp24.fake | sort | uniq
+awk '{print $1,$7}' lastsp24.fake | sort | uniq
+grep "xuebosp24" lastsp24.fake 
+awk '$7 >= 23 || $7 <= 04' '{print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 23 || $7 <= 04 {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"}{print $0} END{print"Night Owls are dope. Please ensure you get enough sleep though."}'
+vi Assignment3.txt 
+echo "Task 4" 
+awk '$7 >= 05 && $7 <= 09 {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"}{print $0} END{print"Early Birds are dope. Please ensure you get enough sleep though."}'
+awk '$7 >= 5 && $7 <= 9 {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"}{print $0} END{print"Early Birds are dope. Please ensure you get enough sleep though."}'
+awk '$7 <= 04 {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"}{print $0} END{print"Night Owls are dope. Please ensure you get enough sleep though."}'
+awk '$7 >= 05 || $7 <= 09' '{print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 05 || $7 <= 09 {print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 05 && $7 <= 09 {print $1}' lastsp24.fake | sort | uniq
+awk '{print $1,$8}' lastsp24.fake | sort | uniq
+awk '{print $1,$9}' lastsp24.fake | sort | uniq
+awk '{print $1,$10}' lastsp24.fake | sort | uniq
+awk '{print $1,$7}' lastsp24.fake | sort | uniq
+awk '$7 >= 05 && $7 <= 09 {print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 05 && <= 09 {print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 05 && $7 <= 09 {print $1}' lastsp24.fake | sort | uniq
+awk '$7 <= 09 {print $1}' lastsp24.fake | sort | uniq
+awk '$7 >= 5 {print $1}' lastsp24.fake | sort | uniq
+awk -F: '{print $1}' lastsp24.fake 
+awk -F: '{print $1}' lastsp24.fake | awk {print $7}' 
+
+q
+awk -F: '{print $1}' lastsp24.fake | awk '{print $7}'
+echo " Task 3 - correction" 
+awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 23 || $7 <= 4 {print $1} | sort | uniq
+'
+awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 23 || $7 <= 4 {print $1}' | sort | uniq 
+awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 23 || $7 <= 4 {print $1}' | sort | uniq | awk 'BEGIN {print "Night Owls List:"}{print $0} END{print"Night Owls are dope. Please ensure you get enough sleep though."}'
+vi Assignment3.txt 
+eho " Task 4" 
+echo " Task 4" 
+awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 5 && $7 <= 9 {print $1}' | sort | uniq | awk 'BEGIN {print "Early Birds List:"}{print $0} END{print"Early Birds are dope. Please ensure you get enough sleep though."}'
+vi Assignment3.txt 
+echo "Task 5" 
+grep '^t' lastsp24.fake 
+awk '$1 == "^t" {print $1}' lastsp24.fake 
+awk '$1 ~ /^t/' lastsp24.fake 
+awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+vi Assignment3.txt 
+vi passwd.fake 
+cat /etc/passwd
+:q
+echo "Task 6" 
+awk -F: '$1 ~ /^a/ && $3 % 2 == 0 { print $0 }' passwd.fake | uniq | sort
+awk -F: '$1 ~ /^a/ && $3 % 2 == 0 { print $1 }' passwd.fake | uniq | sort
+vi Assignment3.txt 
+echo "Task 7"
+vi ps.fake 
+sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+vi passwd.fake 
+vi Assignment3.txt 
+cat Assignment3.txt 
+history > cmds.log
+ls
+vi cmds.log 
+cd ..
+ls
+quit
+exit

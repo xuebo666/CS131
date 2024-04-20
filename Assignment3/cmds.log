@@ -1,0 +1,29 @@
+  358  mkdir Assignment3
+  359  cd Assignment3
+  360  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  361  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  362  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  363  ls
+  364  touch Assignment3.txt
+  365  ls
+  366  echo "Task1" 
+  367  vi last.fake 
+  368  wc -l last.fake
+  369  vi last.fake 
+  370  awk '/sp24/' last.fake > lastsp24.fake
+  371  wc -l lastsp24.fake 
+  375  echo "Task 2"
+  378  grep 'Sun' lastsp24.fake | awk '{print $1}' | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print $0} END{print "Kudos to these people for putting in the work"}'
+  380  echo "Task 3" 
+  411  awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 23 || $7 <= 4 {print $1}' | sort | uniq | awk 'BEGIN {print "Night Owls List:"}{print $0} END{print"Night Owls are dope. Please ensure you get enough sleep though."}'
+  414  echo " Task 4" 
+  415  awk -F: '{print $1}' lastsp24.fake | awk '$7 >= 5 && $7 <= 9 {print $1}' | sort | uniq | awk 'BEGIN {print "Early Birds List:"}{print $0} END{print"Early Birds are dope. Please ensure you get enough sleep though."}'
+  416  vi Assignment3.txt 
+  417  echo "Task 5" 
+  421  awk '$1 ~ /^t/ {print $1}' lastsp24.fake | sort | uniq
+  426  echo "Task 6" 
+  428  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 { print $1 }' passwd.fake | uniq | sort
+  430  echo "Task 7"
+  432  sed 's/[[:alnum:] ]//g' passwd.fake | sort -u
+  434  vi Assignment3.txt 
+  436  history > cmds.log
