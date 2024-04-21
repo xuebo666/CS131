@@ -446,3 +446,13 @@ cd ..
 ls
 quit
 exit
+ls
+cd Assignment3
+ls
+vi Assignment3.txt 
+cd ..
+git add .
+git status
+git commit -m "Assignment3"
+git push origin main
+exit

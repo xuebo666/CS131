@@ -1,0 +1,20 @@
+  456  mkdir Worksheet5
+  457  cd Worksheet5
+  458  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  459  ls
+  460  touch ws5.txt
+  471  ls
+  476  mkdir -p 'United States'
+  479  ls
+  490  categories=("Music" "Entertainment" "Gaming" "Comedy")
+  492  for category in "${categories[@]}"; do awk -F',' '$5 == "'"$category"'" && $8 == "United States" {print $0}' 'Global YouTube Statistics.csv' > "United States/$category.txt"; done
+  494  cd 'United States'/
+  495  ls
+  496  cat Gaming.txt 
+  497  cat Comedy.txt 
+  498  cat Music.txt 
+  499  cat Entertainment.txt 
+  500  cd ..
+  501  wc -l "United States/Music.txt" "United States/Entertainment.txt" "United States/Gaming.txt" "United States/Comedy.txt" >> ws5.txt
+  502  cat ws5.txt 
+  503  history > cmds.log
