@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:q
-|2,0,1713685755,,"q"
 :wq
-|2,0,1713685744,,"wq"
+|2,0,1713686927,,"wq"
+:q
+|2,0,1713686664,,"q"
 :1,455 d
 |2,0,1713685585,,"1,455 d"
 :1, 357 d
@@ -93,230 +93,251 @@
 |3,0,36,0,1,0,1709969596,"1"
 
 # File marks:
-'0  1  0  ~/Worksheet5/ws5.txt
-|4,48,1,0,1713685755,"~/Worksheet5/ws5.txt"
-'1  9  2  ~/Worksheet5/cmds.log
-|4,49,9,2,1713685744,"~/Worksheet5/cmds.log"
-'2  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,50,1,0,1713685000,"~/Worksheet5/Global YouTube Statistics.csv"
-'3  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,51,190,0,1713684381,"~/Worksheet5/Global YouTube Statistics.csv"
-'4  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,52,190,0,1713684381,"~/Worksheet5/Global YouTube Statistics.csv"
-'5  181  0  ~/Assignment3/Assignment3.txt
-|4,53,181,0,1713584880,"~/Assignment3/Assignment3.txt"
-'6  29  2  ~/Assignment3/cmds.log
-|4,54,29,2,1713339222,"~/Assignment3/cmds.log"
-'7  1  0  ~/Assignment3/cmds.log
-|4,55,1,0,1713339088,"~/Assignment3/cmds.log"
-'8  18  0  ~/Assignment3/cmds.log
-|4,56,18,0,1713339088,"~/Assignment3/cmds.log"
-'9  167  44  ~/Assignment3/Assignment3.txt
-|4,57,167,44,1713338866,"~/Assignment3/Assignment3.txt"
+'0  4  0  ~/Worksheet5/script.sh
+|4,48,4,0,1713686927,"~/Worksheet5/script.sh"
+'1  3  172  ~/Worksheet5/script.sh
+|4,49,3,172,1713686860,"~/Worksheet5/script.sh"
+'2  3  172  ~/Worksheet5/script.sh
+|4,50,3,172,1713686860,"~/Worksheet5/script.sh"
+'3  2  177  ~/Worksheet5/script.sh
+|4,51,2,177,1713686677,"~/Worksheet5/script.sh"
+'4  2  177  ~/Worksheet5/script.sh
+|4,52,2,177,1713686677,"~/Worksheet5/script.sh"
+'5  2  177  ~/Worksheet5/script.sh
+|4,53,2,177,1713686677,"~/Worksheet5/script.sh"
+'6  2  177  ~/Worksheet5/script.sh
+|4,54,2,177,1713686677,"~/Worksheet5/script.sh"
+'7  1  0  ~/Worksheet5/script.
+|4,55,1,0,1713686664,"~/Worksheet5/script."
+'8  2  177  ~/Worksheet5/script
+|4,56,2,177,1713686657,"~/Worksheet5/script"
+'9  2  177  ~/Worksheet5/script
+|4,57,2,177,1713686532,"~/Worksheet5/script"
 
 # Jumplist (newest first):
--'  1  0  ~/Worksheet5/ws5.txt
-|4,39,1,0,1713685755,"~/Worksheet5/ws5.txt"
--'  9  2  ~/Worksheet5/cmds.log
-|4,39,9,2,1713685744,"~/Worksheet5/cmds.log"
--'  9  2  ~/Worksheet5/cmds.log
-|4,39,9,2,1713685744,"~/Worksheet5/cmds.log"
--'  1  0  ~/Worksheet5/cmds.log
-|4,39,1,0,1713685585,"~/Worksheet5/cmds.log"
--'  1  0  ~/Worksheet5/cmds.log
-|4,39,1,0,1713685585,"~/Worksheet5/cmds.log"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713685000,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713685000,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713685000,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713685000,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684985,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684985,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684985,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684985,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684381,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684381,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684381,"~/Worksheet5/Global YouTube Statistics.csv"
--'  190  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,190,0,1713684381,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713684348,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713684348,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713684348,"~/Worksheet5/Global YouTube Statistics.csv"
--'  1  0  ~/Worksheet5/Global YouTube Statistics.csv
-|4,39,1,0,1713684348,"~/Worksheet5/Global YouTube Statistics.csv"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  181  0  ~/Assignment3/Assignment3.txt
-|4,39,181,0,1713584880,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  167  44  ~/Assignment3/Assignment3.txt
-|4,39,167,44,1713584861,"~/Assignment3/Assignment3.txt"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  29  2  ~/Assignment3/cmds.log
-|4,39,29,2,1713339222,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
--'  1  0  ~/Assignment3/cmds.log
-|4,39,1,0,1713339099,"~/Assignment3/cmds.log"
+-'  4  0  ~/Worksheet5/script.sh
+|4,39,4,0,1713686927,"~/Worksheet5/script.sh"
+-'  3  172  ~/Worksheet5/script.sh
+|4,39,3,172,1713686896,"~/Worksheet5/script.sh"
+-'  3  172  ~/Worksheet5/script.sh
+|4,39,3,172,1713686860,"~/Worksheet5/script.sh"
+-'  2  177  ~/Worksheet5/script.sh
+|4,39,2,177,1713686835,"~/Worksheet5/script.sh"
+-'  2  177  ~/Worksheet5/script.sh
+|4,39,2,177,1713686835,"~/Worksheet5/script.sh"
+-'  2  177  ~/Worksheet5/script.sh
+|4,39,2,177,1713686677,"~/Worksheet5/script.sh"
+-'  1  0  ~/Worksheet5/script.sh
+|4,39,1,0,1713686668,"~/Worksheet5/script.sh"
+-'  1  0  ~/Worksheet5/script.sh
+|4,39,1,0,1713686668,"~/Worksheet5/script.sh"
+-'  1  0  ~/Worksheet5/script.sh
+|4,39,1,0,1713686668,"~/Worksheet5/script.sh"
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  1  0  ~/Worksheet5/script.
+|4,39,1,0,1713686664,"~/Worksheet5/script."
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686657,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  177  ~/Worksheet5/script
+|4,39,2,177,1713686532,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  2  0  ~/Worksheet5/script
+|4,39,2,0,1713686504,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
+-'  1  0  ~/Worksheet5/script
+|4,39,1,0,1713686490,"~/Worksheet5/script"
 
 # History of marks within files (newest to oldest):
+
+> ~/Worksheet5/script.sh
+	*	1713686926	0
+	"	4	0
+	^	4	0
+	.	3	7
+	+	2	177
+	+	3	0
+	+	3	7
+
+> ~/Worksheet5/script.
+	*	1713686661	0
+	"	1	0
+
+> ~/Worksheet5/script
+	*	1713686652	0
+	"	2	177
+	^	2	178
+	.	2	177
+	+	1	54
+	+	2	177
 
 > ~/Worksheet5/ws5.txt
 	*	1713685752	0
@@ -475,15 +496,3 @@
 > ~/Worksheet3/test.txt
 	*	1711172676	0
 	"	996	0
-
-> ~/Worksheet3/ws3_task1.txt
-	*	1711172419	0
-	"	630	0
-
-> ~/Worksheet3/ws2.txt
-	*	1711172165	0
-	"	1	0
-
-> ~/Worksheet3/ws.txt
-	*	1711171872	0
-	"	302	0

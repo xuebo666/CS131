@@ -456,3 +456,62 @@ git status
 git commit -m "Assignment3"
 git push origin main
 exit
+ls
+mkdir Worksheet5
+cd Worksheet5
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+ls
+touch ws5.txt
+ls
+vi 'Global YouTube Statistics.csv' 
+mkdir -p "Worksheet5/United States"
+ls
+rmdir Worksheet5
+cd Worksheet5/
+ls
+rmdir 'United States'/
+cd ..
+rmdir Worksheet5/
+ls
+mkdir -p United States
+ls
+rmdir States/
+rmdir United/
+mkdir -p 'United States'
+ls
+cd United\ States/
+ls
+cd ..
+cd..
+cd ..
+cd Worksheet5
+ls
+awk -F',' '$8 == "United States" && $5 == "Music" {print $0}' 'Global YouTube Statistics.csv' 
+vi 'g
+vi 'Global YouTube Statistics.csv' 
+awk -F',' '$8 == "United States" && $5 == "Gaming" {print $0}' 'Global YouTube Statistics.csv' 
+echo "Start" 
+categories=("Music" "Entertainment" "Gaming" "Comedy")
+for category in "${categories[@]}"; do     awk -F',' '$2 == "United States" && $5 == "'"$category"'" {print $0}' "Global YouTube Statistics.csv" > "Worksheet5/United States/$category.txt"
+for category in "${categories[@]}"; do awk -F',' '$5 == "'"$category"'" && $8 == "United States" {print $0}' 'Global YouTube Statistics.csv' > "United States/$category.txt"; done
+ls
+cd 'United States'/
+ls
+cat Gaming.txt 
+cat Comedy.txt 
+cat Music.txt 
+cat Entertainment.txt 
+cd ..
+wc -l "United States/Music.txt" "United States/Entertainment.txt" "United States/Gaming.txt" "United States/Comedy.txt" >> ws5.txt
+cat ws5.txt 
+history > cmds.log
+ls
+vi cmds.log 
+vi ws5.txt 
+cd ..
+git add .
+git status
+git commit -m "Workshhet5"
+git push origin main
+cd Worksheet5
+exit
