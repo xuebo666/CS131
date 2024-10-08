@@ -136,3 +136,15 @@
 - (1, 14, 11.00),
 - (1, 15, 7.50),
 - (2, 16, 30.36);
+
+# How to Run
+- Open your MySQL database client (like MySQL Workbench or command line).
+- Execute the provided SQL scripts in the correct order:
+  ofs_users.sql
+  ofs_login.sql
+  ofs_products.sql
+  ofs_order.sql
+  ofs_order_items.sql
+  ofs_delivery.sql
+  ofs_robot.sql
+  ofs_inventory.sql
